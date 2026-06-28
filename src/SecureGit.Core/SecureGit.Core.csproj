@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SecureGit.Domain\SecureGit.Domain.csproj" />
+    <ProjectReference Include="..\SecureGit.Infrastructure\SecureGit.Infrastructure.csproj" />
+    <ProjectReference Include="..\SecureGit.Cryptography\SecureGit.Cryptography.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
