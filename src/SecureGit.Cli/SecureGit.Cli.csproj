@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SecureGit.Core\SecureGit.Core.csproj" />
+    <ProjectReference Include="..\SecureGit.Domain\SecureGit.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -1,0 +1,57 @@
+SecureGit
+
+│
+
+├── SecureGit.Cli
+
+│      Commands
+
+│      Dispatchers
+
+│
+
+├── SecureGit.Core
+
+│      Services
+
+│      Interfaces
+
+│      Git Algorithms
+
+│
+
+├── SecureGit.Domain
+
+│      Repository
+
+│      Blob
+
+│      Tree
+
+│      Commit
+
+│      Branch
+
+│
+
+├── SecureGit.Infrastructure
+
+│      FileSystem
+
+│      ObjectStore
+
+│      Compression
+
+│
+
+├── SecureGit.Cryptography
+
+│      AES
+
+│      SHA256
+
+│      PBKDF2
+
+│
+
+└── Tests
