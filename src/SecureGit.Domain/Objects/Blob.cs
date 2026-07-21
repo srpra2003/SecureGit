@@ -1,6 +1,6 @@
 namespace SecureGit.Domain.Objects;
 
-public sealed class Blob {
+public sealed class Blob: GitObject {
     public byte[] Content { get; }
 
     public Blob(byte[] content) {
